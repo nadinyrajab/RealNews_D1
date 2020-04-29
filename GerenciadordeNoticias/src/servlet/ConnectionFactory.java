@@ -20,7 +20,7 @@ public class ConnectionFactory {
 		try {
 			return DriverManager
 					.getConnection("jdbc:mysql://localhost/portal_realnews?useTimezone=true&serverTimezone=UTC&useSSL=false", 
-							"vagner", "c43sxz1234");
+							"root", "123456");
 		} catch (SQLException ex) {
 			System.err.println("Nãoo foi possivel se conectar ao servidor!");
 			ex.printStackTrace();
